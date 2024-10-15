@@ -5,8 +5,17 @@
     padding: 0;
     box-sizing: border-box;
 
+
     
    
+}
+
+.navbar{
+    transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled{
+    background-color: #e2a9a9;
 }
 
 header{
